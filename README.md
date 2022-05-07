@@ -2,13 +2,13 @@
 
 ## Pasos a seguir
 
-1. Instalar ESLint
+1. **Instalar ESLint**  
     - Acceder a las Extesiones de Visual Code ( `CTRL + SHIFT + X` )
     - Buscar extensión de ESLint e instalar
     - Instalar paquetes de ESLint usando el comando `npm install eslint ` en la terminal
-    -
 
-2. Configurar ESLint
+2. **Configurar ESLint**    
+
     En nuestro caso no usaremos estilo predefinidos, sino que haremos una configuracion custom 
     - Usar comando `.\node_modules\.bin\eslint --init` para configurar ESLint.
     - Seleccionamos las siguientes opciones
