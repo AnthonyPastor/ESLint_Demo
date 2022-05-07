@@ -16,7 +16,7 @@
         - CommonJS (require/exports)
         - None of these
         - No
-        - Deseleccionamos 'Browser' con barra espaciadora y seleccionaos 'Node'
+        - Deseleccionamos 'Browser' con barra espaciadora y seleccionamos 'Node'
         - Answer questions about your style
         - JSON
         - Spaces
