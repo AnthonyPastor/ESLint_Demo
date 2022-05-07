@@ -35,7 +35,7 @@
             "es2021": true,
             "node": true
         },
-        "extends": "eslint:recommended",
+        //"extends": "eslint:recommended",
         "parserOptions": {
             "ecmaVersion": "latest"
         },
@@ -43,10 +43,6 @@
             "indent": [
                 "error",
                 4
-            ],
-            "linebreak-style": [
-                "error",
-                "unix"
             ],
             "quotes": [
                 "error",
