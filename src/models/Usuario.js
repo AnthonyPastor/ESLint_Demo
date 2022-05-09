@@ -1,16 +1,16 @@
-class Usuario{
-    constructor(nombre, email, password){
+class Usuario {
+    constructor(nombre, email, password) {
         this.nombre = nombre;
         this.email = email;
         this.password = password;
     }
 
     saludo() {
-        console.log(`Hola soy ${this,this.nombre}`);
+        console.log(`Hola soy ${this.nombre}`);
     }
 
-    login(email, password){
-return this.emial === email && this.password === password;
+    login(email, password) {
+        return this.emial === email && this.password === password;
     }
 
 }
