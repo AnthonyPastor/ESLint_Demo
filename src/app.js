@@ -10,18 +10,18 @@ const main = async () => {
         opcion = await mostrarMenu();
 
         switch (opcion) {
-            case "1": {
-                console.log("Hola Mundo!");
-                break;
-            }
-            case "2": {
-                let user = new Alumno("Anthony", "", "");
-                user.saludo();
-
-                break;
-            }
-            default:
-                break;
+        case "1": {
+            console.log("Hola Mundo!");
+            break;
+        }
+        case "2": {
+            let user = new Alumno("Anthony", "", "");
+            user.saludo();
+            user.obtenerCurso(4).value;
+            break;
+        }
+        default:
+            break;
         }
 
         await pausa();
